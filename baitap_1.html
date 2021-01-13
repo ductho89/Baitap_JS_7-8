@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <style>
+      button {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h1>Bài tập JS 7_8</h1>
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="">Nhập vào số nguyên</label>
+                <input id="txtNumber" type="text" class="form-control my-2" />
+              </div>
+
+              <!-- <button class="btn btn-success" onclick="themSo()">Thêm số</button> -->
+              <button
+                type="submit"
+                id="btnThemSo"
+                class="btn btn-success d-block"
+              >
+                Thêm số vào mảng
+              </button>
+              <button id="btnTongSoDuong" class="btn btn-info d-block">
+                Tổng số dương
+              </button>
+              <button id="btnSoDuong" class="btn btn-info d-block">
+                Đếm số dương
+              </button>
+              <button id="btnSoNhoNhat" class="btn btn-info d-block">
+                Tìm số nhỏ nhất
+              </button>
+              <button id="btnSoDuongNhoNhat" class="btn btn-info d-block">
+                Tìm số dương nhỏ nhất
+              </button>
+              <button id="btnSoChanCuoiCung" class="btn btn-info d-block">
+                Tìm số chẵn cuối cùng
+              </button>
+              <form>
+                <h4>Đổi vị trí hai phần tử trong mảng</h4>
+                <div class="form-group">
+                  <label>Vị trí phần tử thứ nhất</label>
+                  <input type="number" id="vitri1" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label>Vị trí phần tử thứ hai</label>
+                  <input type="number" id="vitri2" class="form-control" />
+                </div>
+              </form>
+              <button id="btnDoiCho" class="btn btn-info d-block">
+                Đổi chỗ hai giá trị trong mảng theo vị trí
+              </button>
+              <button id="btnSapXepMang" class="btn btn-info d-block">
+                Sắp xếp mảng theo thứ tự tăng dần
+              </button>
+            </div>
+            <div id="CF" class="card-footer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Optional JavaScript -->
+    <script src="./baitap_1.js"></script>
+  </body>
+</html>
